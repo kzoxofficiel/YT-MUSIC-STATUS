@@ -1,0 +1,14 @@
+{
+    "name": "youtube-music-discord-rpc",
+    "version": "1.0.0",
+    "description": "Application pour afficher YouTube Music sur Discord",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "discord-rpc": "^4.0.1",
+      "express": "^4.18.2"
+    }
+  }
