@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Music Discord Status</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="title">YouTube Music Discord Status</div>
+  
+  <div class="form-group">
+    <label>
+      <input type="checkbox" id="discord-rpc-enabled"> Activer le statut Discord
+    </label>
+  </div>
+  
+  <div class="form-group">
+    <label for="local-app-port">Port de l'application locale:</label>
+    <input type="number" id="local-app-port" min="1024" max="65535" value="8765">
+  </div>
+  
+  <button id="save-settings">Enregistrer</button>
+  
+  <div class="status">
+    <div>Statut: <span id="connection-status">Inconnu</span></div>
+    <div>Lecture en cours: <span id="current-song" class="current-song">Aucune</span></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

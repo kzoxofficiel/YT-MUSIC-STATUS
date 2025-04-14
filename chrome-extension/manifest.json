@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Music Discord Status",
+    "version": "1.0",
+    "description": "Affiche votre musique YouTube Music comme statut Discord",
+    "permissions": [
+      "tabs",
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://music.youtube.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://music.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    }
+  }
