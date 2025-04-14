@@ -33,6 +33,12 @@ Cette extension Chrome affiche votre lecture YouTube Music en temps réel sur vo
 - Discord
 - Un compte YouTube Music
 
+## Aperçu
+
+![Aperçu de l'extension](extension.png)
+
+![Aperçu status discord](status.png)
+
 ## Structure du projet
 
 ```
