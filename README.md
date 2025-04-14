@@ -71,7 +71,3 @@ node node-app/index.js
 ## Support
 
 Si vous rencontrez des problèmes, n'hésitez pas à ouvrir une issue sur le dépôt.
-
-## Licence
-
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
